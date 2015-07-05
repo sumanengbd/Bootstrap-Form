@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+		<div class="row from_wrapper">
+			<div class="from_title text-center">
+				<h2>Something Cool about your future</h2>
+				<p>Before we can send you more information. We need to learn a little bit about you. Please fill out the following form and we will have one of our friendly admission representive contact you! </p>
+			</div>
+			<form action="action_page.php">
+				<div class="col-md-6">
+					<div class="info_left">
+						<input type="text" name="FirstName" value="" placeholder="First Name">
+						<input type="text" name="LastName" value="" placeholder="Last Name">
+						<input type="text" name="" value="" placeholder="Phone Number">
+						<input type="text" name="" value="" placeholder="Zip Code">
+						<fieldset>
+							<select>
+								<option value="">How did you heare about us?</option>
+								<option value="">How did you heare about us?</option>
+								<option value="">How did you heare about us?</option>
+							</select>
+						</fieldset>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="info_right">
+						<input type="email" name="Email" value="" placeholder="Email Adress">
+						<input type="text" name="Question" value="" placeholder="What year did you graduate High School?" class="form_question">
+						<fieldset>
+							<select>
+								<option value="">Program of interest</option>
+								<option value="">How did you heare about us?</option>
+								<option value="">How did you heare about us?</option>
+							</select>
+						</fieldset>
+					</div>
+				</div>
+				<div class="col-md-12">
+					<textarea type="text" name="Message" value="" placeholder="Comments"></textarea>
+					<input type="submit" value="Request more info" class="btn btn_md submit">
+					<p>Please complete the information below to complete your sign up Please complete the information below to complete your sign up Please complete </p>
+				</div>
+			</form>
+		</div>
+	</div>
+	<style type="text/css">
+		body {
+		background-color: #000;
+		}
+		.wrapper {
+			max-width: 768px;
+			margin: 0 auto;
+			background-color: #fff;
+			border-radius: 10px;
+		}
+		.from_title {
+			padding: 20px;
+		}
+		.from_title h2 {
+		  color: #F05E22;
+		}
+		.from_title p {
+		  font-size: 14px;
+		  color: #898989;
+		  padding: 0 20%;
+		}
+		.from_wrapper {
+		  padding: 35px;
+		}
+		.info_left {
+		  overflow: hidden;
+		}
+		.info_left input {
+		  width: 49%;
+		}	
+		.info_left select {
+		  width: 100% !important;
+		}
+		.info_left input:focus, .info_right input:focus, select:focus, textarea:focus {
+			outline:none;
+			border: 2px solid #F05E22 !important;
+		}
+		.info_left input, .info_left select, .info_right input, .info_right select {
+			padding: 8px 0 8px 10px;
+			border: 2px solid #EEEEEE;
+			margin-bottom: 20px;
+			color: #ddd;
+		}
+		.info_right input, .info_right select {
+			width:100%;
+		}
+		.info_left select, .info_right select{
+			-webkit-appearance: none;
+			-moz-appearance: none;
+			appearance: none;
+			background-image: url('img/dropdown.png');
+			  background-repeat: no-repeat;
+			  background-position: 95% center;
+		}
+		textarea {
+			width:100%;
+			padding: 5px 0 50px 15px;
+			margin-bottom: 25px;
+			border: 2px solid #ddd;
+		}
+		.info_left input, .info_right input ,textarea, .btn_md, select {
+			border-radius: 10px;
+		}
+		::-webkit-input-placeholder {
+		  color:#D4D4D4;
+		}
+		:-moz-placeholder {
+		  color:#D4D4D4;
+		}
+		::-moz-placeholder {
+		  color:#D4D4D4;
+		}
+		:-ms-input-placeholder {
+		  color: #D4D4D4;
+		}
+		.btn_md {
+		  background-color: #F05E22;
+		  padding: 10px !important;
+		  color: #fff;
+		  font-weight: 600;
+		  border: 0;
+		  margin: 0 35px 30px 0;
+		  width: 290px !important;
+		  float: left;
+		  background-image: url('img/right_arrow.png');
+		  background-repeat: no-repeat;
+		  background-position: 80% center;
+		  background-size: 20px 10px;
+		}
+		
+	</style>
+	
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+  </body>
+</html>
